@@ -1,16 +1,17 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Brems website!</title>
-        <link rel="shortcut icon" type="image/png"  href="./favicon.png" />
+        <link rel="shortcut icon" type="image/png" href="./favicon.png" />
       </Head>
-
       <body>
+        <header id="main-header">
+            <h1>My website</h1>
+        </header>
+
         <div class="container">
 
           <div class="box amethyst">
@@ -37,7 +38,11 @@ export default function Home() {
           </div>
 
         </div>
+
+        <footer id="main-footer">
+          <p>bram.delisse@pm.me | &copy; 2022</p>
+        </footer>
       </body>
-    </div>
+    </>
   )
 }

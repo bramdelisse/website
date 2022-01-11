@@ -1,50 +1,68 @@
 /* ========== MAIN ========== */
 body{
-  background-color:#171717;
-  color:white;
-
+  background-image:url("../images/parrot.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: #171717;
+  color:whitesmoke;
   font-family: Verdana, Geneva, sans-serif;
   font-size:16px;
-  font-weight:normal;
-
   line-height:1.6em;
+  margin:0;
 }
 
 .clr{
   clear:both;
 }
 
-.container {
+.container{
   width:80%;
   margin:auto;
-  background-image:url("../images/parrot.jpg");
-  background-size:cover;
+  overflow:hidden;
 }
 
-/* ========== BOXES ========== */
+#main-header{
+  text-align: center;
+  border: 4mm ridge white;
+}
+
+#main-footer{
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
+  border: 4mm ridge white;
+  box-sizing: border-box;
+}
+
+/* ========== CONTENT ========== */
 .box{
   position:relative;
   border-width:5px;
   border-style:solid;
+  box-sizing: border-box;
   padding: 5px 40px;
-  margin: 20px 0;
+  margin: 20px 10%;
 }
-/*
+
 .box h1{
-  position:relative;
-  text-align:middle;
+  text-align:center;
 }
-*/
+
 .amethyst{
   border-color:#9E94AC;
+  background-color: #9e94ac80;
 }
 
 .astronaut{
   border-color:#294E76;
+  background-color:#294E7680;
 }
 
 .voodoo{
   border-color:#5E3B6A;
+  background-color:#5E3B6A80;
 }
 
 

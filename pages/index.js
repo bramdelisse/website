@@ -13,14 +13,27 @@ export default function Home() {
       <body>
         <div class="container">
 
-          <div class="box-1">
+          <div class="box amethyst">
             <h1>Mijn visie</h1>
             <p>Mijn persoonlijke visie</p>
           </div>
 
-          <div class="box-2">
-            <h2>Wie ben ik</h2>
+          <div class="box astronaut">
+            <h1>Wie ben ik</h1>
             <p>Brem!</p>
+          </div>
+
+          <div class="box voodoo">
+            <h1>Muziek</h1>
+            <p>Nieuwe finds</p>
+          </div>
+
+          <div class="box astronaut">
+            <h1>Personal</h1>
+            <ul>
+              <li>Journal entries</li>
+              <li>Spraakberichtjes</li>
+            </ul>
           </div>
 
         </div>

@@ -1,6 +1,7 @@
+/* ========== MAIN ========== */
 body{
-  background-color:#7e7b79fb;
-  color:#000000;
+  background-color:#171717;
+  color:white;
 
   font-family: Verdana, Geneva, sans-serif;
   font-size:16px;
@@ -9,31 +10,41 @@ body{
   line-height:1.6em;
 }
 
+.clr{
+  clear:both;
+}
+
 .container {
   width:80%;
   margin:auto;
-  background-color:#333333;
+  background-image:url("../images/parrot.jpg");
+  background-size:cover;
 }
 
 /* ========== BOXES ========== */
-.box-1{
-  background-color:#333333;
-  color:rgb(87, 170, 163);
-
-  border: 5px rgb(0, 255, 234) solid;
-
-  padding:5px 40px;
-  margin:20px 0;
+.box{
+  position:relative;
+  border-width:5px;
+  border-style:solid;
+  padding: 5px 40px;
+  margin: 20px 0;
+}
+/*
+.box h1{
+  position:relative;
+  text-align:middle;
+}
+*/
+.amethyst{
+  border-color:#9E94AC;
 }
 
-.box-2{
-  background-color:#333333;
-  color:rgb(170, 87, 87);
+.astronaut{
+  border-color:#294E76;
+}
 
-  border: 5px rgb(255, 0, 0) solid;
-
-  padding:5px 40px;
-  margin:20px 0;
+.voodoo{
+  border-color:#5E3B6A;
 }
 
 

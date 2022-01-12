@@ -1,3 +1,8 @@
+:root{
+  --color-1: brown;
+  --color-2: ...;
+}
+
 /* ========== MAIN ========== */
 body{
   background-image:url("../images/space.jpg");
@@ -85,6 +90,7 @@ body{
   border: 5px white double;
   box-sizing: border-box;
   margin: auto;
+  padding: 0 10px;
 
   background-color: #0a111f80;
 
@@ -124,11 +130,11 @@ a{
 }
 
 a:hover{
-  color:black;
+  color: #ac8e4d;
 }
 
 a:active{
-  color:green;
+  color:black;
 }
 
 a:visited{

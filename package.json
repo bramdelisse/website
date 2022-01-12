@@ -1,19 +1,24 @@
 {
-  "name": "next-netlify-starter",
-  "version": "0.5.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export"
-  },
-  "dependencies": {
-    "netlify-cli": "^8.6.18",
-    "next": "^12.0.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
+  "name": "parcelproject_template",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.0.0-beta.12"
-  }
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "barcel build index.html --distr-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramdelisse/website.git"
+  },
+  "author": "Bram Delisse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bramdelisse/website/issues"
+  },
+  "homepage": "https://github.com/bramdelisse/website#readme"
 }

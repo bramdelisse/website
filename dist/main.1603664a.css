@@ -5,7 +5,7 @@
 
 /* ========== MAIN ========== */
 body{
-  background-image:url("../img/yellow_bird.jpg");
+  background-image:url("/yellow_bird.e516e6b7.jpg");
   background-size: 622px 933px;
   background-repeat: no-repeat;
   background-position: center;
@@ -179,3 +179,5 @@ code {
   border-color:#5E3B6A;
   background-color:#5E3B6A80;
 }
+
+/*# sourceMappingURL=/main.1603664a.css.map */

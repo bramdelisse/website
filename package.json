@@ -2,13 +2,13 @@
   "name": "parcelproject_template",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "barcel build index.html --distr-dir ./dist",
+    "build": "barcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

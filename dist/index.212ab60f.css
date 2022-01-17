@@ -6,11 +6,13 @@
 /* ========== MAIN ========== */
 
 body{
-  background-image:url("space.c5a8627b.jpg");
+  background-image:url("yellow_bird.ff7d5d92.jpg");
   background-size:cover;
   background-repeat: no-repeat;
+  border: 5px white solid;
+  background-attachment: fixed;
 
-  background-color: #0a111f;
+  background-color: #ffffff;
   color:whitesmoke;
 
   font-family: serif, Verdana, Geneva, sans-serif;
@@ -23,34 +25,20 @@ body{
   clear:both;
 }
 
-#main-header{
-  /*position:fixed;  Fix the header in case of scrolling
-  top:0px;
-  height:75px;*/
-  width:100%;
-
-  border: 4px solid #ac8e4d;
-  background-color:#0a111f;
-  box-sizing: border-box;
-  color: #ac8e4d;
-
-  text-align: center;
-  font-style: italic;
-  font-size: 16px;
-}
-
 #main-footer{
   position:fixed;
   bottom:0px;
+  left:0px;
   width:100%;
 
   border: 4px solid white;
-  background-color:#0a111f;
+  background-color:#FFEB37;
   box-sizing: border-box;
 
   text-align: center;
   font-family: Verdana;
   font-size: 12px;
+  color: #AE9F14;
 }
 
 /* ========== CONTENT ========== */
@@ -58,86 +46,56 @@ body{
 #container-index{
   position:relative;
   top: 40px;
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-  display:flex;
-  flex-flow: row wrap;
-  justify-content:space-between;
-  align-items: center;
-}
-
-.box{
-  width:200px;
-  height:200px;
-  border:5px #ac8e4d solid;
-  border-radius: 5px;
-  box-sizing: border-box;
-  padding: 5px 40px;
-  margin: 20px 20px;
-  
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
 
-.box h1{
-  text-align:center;
-}
+.box{
+  border:5px #FFEB37 solid;
+  background-color: #ffeb3760;
 
-.quote-of-the-day{
-  position: relative;
-  width:50%;
-  top: 50px;
-  border: 5px white double;
   box-sizing: border-box;
-  margin: auto;
-  padding: 0 10px;
-
-  background-color: #0a111f80;
-
+  padding: 5px;
+  margin: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 /* ========== APPEARANCE ========== */
 
-.bird{
-  background-image:url("yellow_bird-square-comp.bbecb8c5.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
+.square{
+  width:200px;
+  height:200px;
+  border-radius: 0px;
 }
 
-.voicememo{
-  background-image:url("microphone-square-comp.7c9c6be4.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
-.beautiful-world{
-  background-image:url("beautiful_world-square-comp.c6dae410.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
-.Bram{
-  background-image:url("Bram.7af362e5.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
+.circle{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
 }
 
 /* ========== LINKS ========== */
 
 a{
   text-decoration: none;
-  color: white;
+  color: #AE9F14;
 }
 
 a:hover{
-  color: #ac8e4d;
+  color: black;
 }
 
 a:active{
-  color:black;
+  color:white;
 }
 
 a:visited{
